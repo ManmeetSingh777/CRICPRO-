@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: Nunito Sans;
+    font-weight: 5;
+}
+
+body{
+    background-color: white;
+}
+
+#bgimg{
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+    right: 0px;
+}
+#background img{
+    height: 700px;
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-end;
+}
+#logo img{
+    padding:20px;
+    margin-right: 100px;
+}
+#container{
+    margin-left: 4%;
+}
+table,th,td{
+    border-collapse: collapse;
+    padding: 10px;
+}
+table{
+    width: 60vw;  
+}
+#table{
+    position: fixed;
+    z-index: 50;
+}
+thead{
+    color: white;
+    background-color: #F05033;
+}
+td{
+    border-bottom: 1px solid #BEBEBE;
+}
+tbody{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}   
+a{
+    color: #2B81EE;
+}
+.l1{
+    color: #2B81EE;
+}
+
+.l2{
+    color: #848484;
+}
+
+strong{
+    font-size: 40px;
+    text-shadow: 3px 3px 4px grey;
+}
+h2{
+    color: #696969;
+}
+#details{
+    display: none;
+    height: 385px;
+    width: 723px;
+    top: 236px;
+    left: 260px;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 88;
+}
+
+
+h1,h3{
+    position: relative;
+    z-index: 40;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+}
